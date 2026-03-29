@@ -102,3 +102,9 @@ font-weight: 400;
 font-size: 23px;
 text-align: left;
 }
+
+@media(max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
